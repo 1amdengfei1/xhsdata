@@ -2,7 +2,7 @@ from http import HTTPStatus
 import dashscope
 import json
 
-dashscope.api_key = 'sk-a27bbf526e9e44bd9002a0b7fa05eb48'  # 填入通义千问的 APIKEY
+dashscope.api_key = ''  # 填入通义千问的 APIKEY
 
 
 def call_with_messages(messages):
